@@ -200,3 +200,269 @@ int main() {
     }
     return 0;
 }
+
+/*OUTPUT: 
+Ticket Management System
+1. Book Ticket
+2. Cancel Ticket
+3. View Ticket
+4. View All Tickets
+5. Exit
+Enter your choice: 1
+
+Available Trains:
+Source: CityD, Destination: CityE, Travel Time: 06:15 PM, Cost: $75
+Source: CityB, Destination: CityE, Travel Time: 05:00 PM, Cost: $60
+Source: CityC, Destination: CityD, Travel Time: 04:30 PM, Cost: $55
+Source: CityA, Destination: CityB, Travel Time: 10:00 AM, Cost: $50
+Source: CityA, Destination: CityC, Travel Time: 12:00 PM, Cost: $70
+Source: CityA, Destination: CityD, Travel Time: 03:00 PM, Cost: $80
+Enter Passenger Name: Riddhima Nikam
+Enter Source: CityB
+Enter Destination: CityE
+
+Ticket successfully booked!
+Ticket ID: 1
+Passenger Name: Riddhima Nikam
+Source: CityB
+Destination: CityE
+Travel Time: 05:00 PM
+Cost: $60
+Status: Booked
+
+Ticket Management System
+1. Book Ticket
+2. Cancel Ticket
+3. View Ticket
+4. View All Tickets
+5. Exit
+Enter your choice: 3
+Enter Ticket ID to View: 1
+Ticket ID: 1
+Passenger Name: Riddhima Nikam
+Source: CityB
+Destination: CityE
+Travel Time: 05:00 PM
+Cost: $60
+Status: Booked
+
+Ticket Management System
+1. Book Ticket
+2. Cancel Ticket
+3. View Ticket
+4. View All Tickets
+5. Exit
+Enter your choice: 1
+
+Available Trains:
+Source: CityD, Destination: CityE, Travel Time: 06:15 PM, Cost: $75
+Source: CityB, Destination: CityE, Travel Time: 05:00 PM, Cost: $60
+Source: CityC, Destination: CityD, Travel Time: 04:30 PM, Cost: $55
+Source: CityA, Destination: CityB, Travel Time: 10:00 AM, Cost: $50
+Source: CityA, Destination: CityC, Travel Time: 12:00 PM, Cost: $70
+Source: CityA, Destination: CityD, Travel Time: 03:00 PM, Cost: $80
+Enter Passenger Name: Amit Nikam
+Enter Source: CityA
+Enter Destination: CityD
+
+Ticket successfully booked!
+Ticket ID: 2
+Passenger Name: Amit Nikam
+Source: CityA
+Destination: CityD
+Travel Time: 03:00 PM
+Cost: $80
+Status: Booked
+
+Ticket Management System
+1. Book Ticket
+2. Cancel Ticket
+3. View Ticket
+4. View All Tickets
+5. Exit
+Enter your choice: 1
+
+Available Trains:
+Source: CityD, Destination: CityE, Travel Time: 06:15 PM, Cost: $75
+Source: CityB, Destination: CityE, Travel Time: 05:00 PM, Cost: $60
+Source: CityC, Destination: CityD, Travel Time: 04:30 PM, Cost: $55
+Source: CityA, Destination: CityB, Travel Time: 10:00 AM, Cost: $50
+Source: CityA, Destination: CityC, Travel Time: 12:00 PM, Cost: $70
+Source: CityA, Destination: CityD, Travel Time: 03:00 PM, Cost: $80
+Enter Passenger Name: Hindavi
+Enter Source: CityC
+Enter Destination: CityD 
+
+Ticket successfully booked!
+Ticket ID: 3
+Passenger Name: Hindavi
+Source: CityC
+Destination: CityD
+Travel Time: 04:30 PM
+Cost: $55
+Status: Booked
+
+Ticket Management System
+1. Book Ticket
+2. Cancel Ticket
+3. View Ticket
+4. View All Tickets
+5. Exit
+Enter your choice: 4
+
+All Tickets:
+Ticket ID: 3
+Passenger Name: Hindavi
+Source: CityC
+Destination: CityD
+Travel Time: 04:30 PM
+Cost: $55
+Status: Booked
+--------------------------------
+Ticket ID: 2
+Passenger Name: Amit Nikam
+Source: CityA
+Destination: CityD
+Travel Time: 03:00 PM
+Cost: $80
+Status: Booked
+--------------------------------
+Ticket ID: 1
+Passenger Name: Riddhima Nikam
+Source: CityB
+Destination: CityE
+Travel Time: 05:00 PM
+Cost: $60
+Status: Booked
+--------------------------------
+
+Ticket Management System
+1. Book Ticket
+2. Cancel Ticket
+3. View Ticket
+4. View All Tickets
+5. Exit
+Enter your choice: 2
+
+Booked Tickets:
+Ticket ID: 3
+Passenger Name: Hindavi
+Source: CityC
+Destination: CityD
+Travel Time: 04:30 PM
+Cost: $55
+Status: Booked
+Ticket ID: 2
+Passenger Name: Amit Nikam
+Source: CityA
+Destination: CityD
+Travel Time: 03:00 PM
+Cost: $80
+Status: Booked
+Ticket ID: 1
+Passenger Name: Riddhima Nikam
+Source: CityB
+Destination: CityE
+Travel Time: 05:00 PM
+Cost: $60
+Status: Booked
+Enter Ticket ID to Cancel: 4
+
+Ticket ID not found or already cancelled.
+
+Ticket Management System
+1. Book Ticket
+2. Cancel Ticket
+3. View Ticket
+4. View All Tickets
+5. Exit
+Enter your choice: 3
+Enter Ticket ID to View: 3
+Ticket ID: 3
+Passenger Name: Hindavi
+Source: CityC
+Destination: CityD
+Travel Time: 04:30 PM
+Cost: $55
+Status: Booked
+
+Ticket Management System
+1. Book Ticket
+2. Cancel Ticket
+3. View Ticket
+4. View All Tickets
+5. Exit
+Enter your choice: 2
+
+Booked Tickets:
+Ticket ID: 3
+Passenger Name: Hindavi
+Source: CityC
+Destination: CityD
+Travel Time: 04:30 PM
+Cost: $55
+Status: Booked
+Ticket ID: 2
+Passenger Name: Amit Nikam
+Source: CityA
+Destination: CityD
+Travel Time: 03:00 PM
+Cost: $80
+Status: Booked
+Ticket ID: 1
+Passenger Name: Riddhima Nikam
+Source: CityB
+Destination: CityE
+Travel Time: 05:00 PM
+Cost: $60
+Status: Booked
+Enter Ticket ID to Cancel: 3
+
+Ticket ID 3 has been cancelled.
+Source: CityC
+Destination: CityD
+Travel Time: 04:30 PM
+Status: Cancelled
+
+Ticket Management System
+1. Book Ticket
+2. Cancel Ticket
+3. View Ticket
+4. View All Tickets
+5. Exit
+Enter your choice: 4
+
+All Tickets:
+Ticket ID: 3
+Passenger Name: Hindavi
+Source: CityC
+Destination: CityD
+Travel Time: 04:30 PM
+Cost: $55
+Status: Cancelled
+--------------------------------
+Ticket ID: 2
+Passenger Name: Amit Nikam
+Source: CityA
+Destination: CityD
+Travel Time: 03:00 PM
+Cost: $80
+Status: Booked
+--------------------------------
+Ticket ID: 1
+Passenger Name: Riddhima Nikam
+Source: CityB
+Destination: CityE
+Travel Time: 05:00 PM
+Cost: $60
+Status: Booked
+--------------------------------
+
+Ticket Management System
+1. Book Ticket
+2. Cancel Ticket
+3. View Ticket
+4. View All Tickets
+5. Exit
+Enter your choice: 5
+Exiting the system. Goodbye!*/
